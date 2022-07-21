@@ -1,0 +1,23 @@
+{
+  "name": "keva-api",
+  "version": "0.1.0",
+  "description": "This is the API server of keva",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "keva",
+    "api",
+    "accounting",
+    "typescript"
+  ],
+  "author": "KohuTech",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.6"
+  }
+}

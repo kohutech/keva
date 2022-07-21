@@ -1,0 +1,54 @@
+
+.add-account-main {
+    padding: 25px;
+    display: flex;
+    align-content: center;
+    width: 100%;
+    max-width: 768px;
+}
+
+.action-cell {
+    display: flex;
+}
+
+.action-cell svg {
+    visibility: hidden;
+}
+
+.action-cell:hover yes-icon {
+    color: green;
+}
+
+.action-cell:hover x-icon {
+    color: red;
+}
+
+tr:hover .action-cell svg {
+    visibility: visible;
+}
+
+.add-account-btn {
+    color: navy;
+    border-color: navy;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.add-account-btn:hover {
+    color: white !important;
+    background-color: navy;
+}

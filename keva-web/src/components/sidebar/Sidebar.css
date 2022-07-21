@@ -1,0 +1,30 @@
+
+.sidebar {
+    background-color: aliceblue;
+    width: 150px;
+    min-width: 150px;
+    padding-top: 15px;
+    box-shadow: -2px 0px 15px grey;
+}
+
+.sidebar-button {
+    padding: 10px 15px;
+    font-size: 18px;
+
+    border-width: 1px 0px;
+    border-color: transparent;
+    border-style: solid;
+
+
+    background-size: cover;
+    cursor: pointer;
+    color: midnightblue;
+}
+
+.sidebar-button:hover {
+    border-color: navy;
+}
+.sidebar-button.active {
+    color: white !important;
+    background-color: navy;
+}
